@@ -23,7 +23,7 @@ public class generator {
 
             System.out.println("your kitty name is: " + name);
 
-            System.out.println("wanna generate another name?[y/n]");
+            System.out.println("wanna generate another name? [y/n]");
             char y = scanner.next().charAt(0);
 
             if (y == 'y') {
